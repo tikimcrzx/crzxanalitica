@@ -4,4 +4,5 @@ export interface CreatePreOrderDTO {
   readonly quantity: number;
   readonly dish: ObjectId;
   readonly status: boolean;
+  readonly finish: boolean;
 }

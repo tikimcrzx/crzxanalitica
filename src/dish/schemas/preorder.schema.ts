@@ -12,6 +12,9 @@ export class PreOrder extends Document {
 
   @Prop({ default: false })
   status: boolean;
+
+  @Prop({ default: false })
+  finish: boolean;
 }
 
 export const PreOrderSchema = SchemaFactory.createForClass(PreOrder);
